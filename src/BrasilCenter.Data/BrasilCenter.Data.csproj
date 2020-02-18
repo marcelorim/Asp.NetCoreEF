@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200217203236_Initial.cs" />
+    <Compile Remove="Migrations\20200217203236_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200217205328_Initial.cs" />
+    <Compile Remove="Migrations\20200217205328_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200217205739_Initial.cs" />
+    <Compile Remove="Migrations\20200217205739_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200217205909_Initial.cs" />
+    <Compile Remove="Migrations\20200217205909_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200217210732_Initial.cs" />
+    <Compile Remove="Migrations\20200217210732_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200217211234_Initial.cs" />
+    <Compile Remove="Migrations\20200217211234_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200217212153_Initial.cs" />
+    <Compile Remove="Migrations\20200217212153_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200217212328_Initial.cs" />
+    <Compile Remove="Migrations\20200217212328_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200217212806_Initial.cs" />
+    <Compile Remove="Migrations\20200217212806_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200217215242_Initial.cs" />
+    <Compile Remove="Migrations\20200217215242_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200217215514_Initial.cs" />
+    <Compile Remove="Migrations\20200217215514_Initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BrasilCenter.Business\BrasilCenter.Business.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+</Project>
